@@ -1,27 +1,21 @@
 ---
 name: Factual
 x-slug: factual
-description: Factual provides access to definitive global data for powering web and
-  mobile apps, mobile advertising, and enterprise solutions. Using its sophisticated
-  big data stack, Factual builds data products that leverage contributions from partners,
-  user communities, and the web. Factual&rsquo;s first offering is its Global Places
-  suite of data and APIs, which provides access to more than 63 million places in
-  50 countries along with entity mapping, resolution, and geo ad-targeting services.
-  Its second offering is its Products suite of data and APIs. Factual is funded by
-  Andreessen Horowitz and Index Ventures.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factual-logo-500.png
+description: Factual is pioneering how the world uses data to power mobile marketing,
+  digital consumer products, mobile applications and real world analytics.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "147251"
 tags: Factual
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/factual/master/_listings/factual/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Factual Post Table Name Boost
   x-api-slug: factual
   description: Post table name boost.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factual-logo-500.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
   humanURL: http://www.factual.com/data-apis/places/geopulse-context
   baseURL: https://api.v3.factual.com////t/{table_name}/boost
   tags: Table,Name,Boost
@@ -33,7 +27,7 @@ apis:
 - name: Factual Get Table Name Facets
   x-api-slug: factual
   description: Get table name facets.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factual-logo-500.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
   humanURL: http://www.factual.com/data-apis/places/geopulse-context
   baseURL: https://api.v3.factual.com////t/{table_name}/facets
   tags: Table,Name,Facets
@@ -45,7 +39,7 @@ apis:
 - name: Factual Get Table Name Match
   x-api-slug: factual
   description: Get table name match.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factual-logo-500.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
   humanURL: http://www.factual.com/data-apis/places/geopulse-context
   baseURL: https://api.v3.factual.com////t/{table_name}/match
   tags: Table,Name,Match
@@ -57,7 +51,7 @@ apis:
 - name: Factual Get Table Name Resolve
   x-api-slug: factual
   description: Get table name resolve.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factual-logo-500.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
   humanURL: http://www.factual.com/data-apis/places/geopulse-context
   baseURL: https://api.v3.factual.com////t/{table_name}/resolve
   tags: Table,Name,Resolve
@@ -69,7 +63,7 @@ apis:
 - name: Factual Get Table Name Schema
   x-api-slug: factual
   description: Get table name schema.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factual-logo-500.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
   humanURL: http://www.factual.com/data-apis/places/geopulse-context
   baseURL: https://api.v3.factual.com////t/{table_name}/schema
   tags: Table,Name,Schema
@@ -81,7 +75,7 @@ apis:
 - name: Factual Post Table Name Submit
   x-api-slug: factual
   description: Post table name submit.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factual-logo-500.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
   humanURL: http://www.factual.com/data-apis/places/geopulse-context
   baseURL: https://api.v3.factual.com////t/{table_name}/submit
   tags: Table,Name,Submit
@@ -93,7 +87,7 @@ apis:
 - name: Factual Get Table Name Factual
   x-api-slug: factual
   description: Get table name factual.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factual-logo-500.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
   humanURL: http://www.factual.com/data-apis/places/geopulse-context
   baseURL: https://api.v3.factual.com////t/{table_name}/{factual_id}
   tags: Table,Name,Factual,Id
@@ -105,7 +99,7 @@ apis:
 - name: Factual Post Table Name Factual Clear
   x-api-slug: factual
   description: Post table name factual clear.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factual-logo-500.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
   humanURL: http://www.factual.com/data-apis/places/geopulse-context
   baseURL: https://api.v3.factual.com////t/{table_name}/{factual_id}/clear
   tags: Table,Name,Factual,Id,Clear
@@ -117,7 +111,7 @@ apis:
 - name: Factual Post Table Name Factual Flag
   x-api-slug: factual
   description: Post table name factual flag.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factual-logo-500.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
   humanURL: http://www.factual.com/data-apis/places/geopulse-context
   baseURL: https://api.v3.factual.com////t/{table_name}/{factual_id}/flag
   tags: Table,Name,Factual,Id,Flag
@@ -128,15 +122,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/factual/master/_listings/factual/ttable-namefactual-idflag-post-openapi.md
 - name: Factual
   x-api-slug: factual
-  description: Factual provides access to definitive global data for powering web
-    and mobile apps, mobile advertising, and enterprise solutions. Using its sophisticated
-    big data stack, Factual builds data products that leverage contributions from
-    partners, user communities, and the web. Factual&rsquo;s first offering is its
-    Global Places suite of data and APIs, which provides access to more than 63 million
-    places in 50 countries along with entity mapping, resolution, and geo ad-targeting
-    services. Its second offering is its Products suite of data and APIs. Factual
-    is funded by Andreessen Horowitz and Index Ventures.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/factual-logo-500.png
+  description: Factual is pioneering how the world uses data to power mobile marketing,
+    digital consumer products, mobile applications and real world analytics.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
   humanURL: http://www.factual.com/data-apis/places/geopulse-context
   baseURL: https://api.v3.factual.com//
   tags: Factual
@@ -152,6 +140,12 @@ x-common:
   url: http://feeds.feedburner.com/FactualBlog
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/factual
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/factual
+- type: x-email
+  url: media@factual.com
+- type: x-email
+  url: privacy@factual.com
 - type: x-github
   url: https://github.com/Factual
 - type: x-twitter
