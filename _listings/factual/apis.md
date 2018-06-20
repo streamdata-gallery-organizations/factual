@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factua
 x-kinRank: "9"
 x-alexaRank: "147251"
 tags: Factual
-created: "2018-05-25"
-modified: "2018-05-25"
+created: "2018-06-19"
+modified: "2018-06-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/factual/master/_listings/factual/apis.md
 specificationVersion: "0.14"
 apis:
@@ -16,7 +16,7 @@ apis:
   x-api-slug: factual
   description: Post table name boost.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
-  humanURL: http://www.factual.com/data-apis/places/geopulse-context
+  humanURL: http://www.factual.com/
   baseURL: https://api.v3.factual.com////t/{table_name}/boost
   tags: Table,Name,Boost
   properties:
@@ -28,7 +28,7 @@ apis:
   x-api-slug: factual
   description: Get table name facets.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
-  humanURL: http://www.factual.com/data-apis/places/geopulse-context
+  humanURL: http://www.factual.com/
   baseURL: https://api.v3.factual.com////t/{table_name}/facets
   tags: Table,Name,Facets
   properties:
@@ -40,7 +40,7 @@ apis:
   x-api-slug: factual
   description: Get table name match.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
-  humanURL: http://www.factual.com/data-apis/places/geopulse-context
+  humanURL: http://www.factual.com/
   baseURL: https://api.v3.factual.com////t/{table_name}/match
   tags: Table,Name,Match
   properties:
@@ -52,7 +52,7 @@ apis:
   x-api-slug: factual
   description: Get table name resolve.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
-  humanURL: http://www.factual.com/data-apis/places/geopulse-context
+  humanURL: http://www.factual.com/
   baseURL: https://api.v3.factual.com////t/{table_name}/resolve
   tags: Table,Name,Resolve
   properties:
@@ -64,7 +64,7 @@ apis:
   x-api-slug: factual
   description: Get table name schema.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
-  humanURL: http://www.factual.com/data-apis/places/geopulse-context
+  humanURL: http://www.factual.com/
   baseURL: https://api.v3.factual.com////t/{table_name}/schema
   tags: Table,Name,Schema
   properties:
@@ -76,7 +76,7 @@ apis:
   x-api-slug: factual
   description: Post table name submit.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
-  humanURL: http://www.factual.com/data-apis/places/geopulse-context
+  humanURL: http://www.factual.com/
   baseURL: https://api.v3.factual.com////t/{table_name}/submit
   tags: Table,Name,Submit
   properties:
@@ -88,7 +88,7 @@ apis:
   x-api-slug: factual
   description: Get table name factual.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
-  humanURL: http://www.factual.com/data-apis/places/geopulse-context
+  humanURL: http://www.factual.com/
   baseURL: https://api.v3.factual.com////t/{table_name}/{factual_id}
   tags: Table,Name,Factual,Id
   properties:
@@ -100,7 +100,7 @@ apis:
   x-api-slug: factual
   description: Post table name factual clear.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
-  humanURL: http://www.factual.com/data-apis/places/geopulse-context
+  humanURL: http://www.factual.com/
   baseURL: https://api.v3.factual.com////t/{table_name}/{factual_id}/clear
   tags: Table,Name,Factual,Id,Clear
   properties:
@@ -112,7 +112,7 @@ apis:
   x-api-slug: factual
   description: Post table name factual flag.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
-  humanURL: http://www.factual.com/data-apis/places/geopulse-context
+  humanURL: http://www.factual.com/
   baseURL: https://api.v3.factual.com////t/{table_name}/{factual_id}/flag
   tags: Table,Name,Factual,Id,Flag
   properties:
@@ -125,13 +125,15 @@ apis:
   description: Factual is pioneering how the world uses data to power mobile marketing,
     digital consumer products, mobile applications and real world analytics.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
-  humanURL: http://www.factual.com/data-apis/places/geopulse-context
+  humanURL: http://www.factual.com/
   baseURL: https://api.v3.factual.com//
   tags: Factual
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/factual/master/_listings/factual/openapi.md
 x-common:
+- type: x-website
+  url: http://www.factual.com/
 - type: x-base
   url: http://api.v3.factual.com
 - type: x-blog
@@ -151,7 +153,7 @@ x-common:
 - type: x-twitter
   url: https://twitter.com/factual
 - type: x-website
-  url: http://www.factual.com/data-apis/places/geopulse-context
+  url: https://www.factual.com/
 include: []
 maintainers:
 - FN: Kin Lane
