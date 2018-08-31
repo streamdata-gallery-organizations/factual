@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Factual",
+	"description": "This is a repository of factual APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/factual.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://factual.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Factual",
+			"x-api-slug": "factual",
+			"description": "Factual is pioneering how the world uses data to power mobile marketing, digital consumer products, mobile applications and real world analytics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg",
+			"humanURL": "http://www.factual.com/",
+			"baseURL": "https://api.v3.factual.com//",
+			"tags": "Factual",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/factual/master/_listings/factual/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Factual",
+	"include": [
+		{
+			"name": "Factual",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/factual/master/_listings/factual/apis.yaml"
+		}
+	]
+}
